@@ -3,6 +3,9 @@
     compressed archives, verifies integrity using checksums, and keeps only a set number of recent backups. The
     script helps users easily protect and manage their data without needing complex tools.
 
+**Why is this Useful?**
+It prevents data loss and also prevents the storage from being filled with old backups.
+
 
 **B. How to Use It**
   * Protects your data from accidental loss  
