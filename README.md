@@ -4,6 +4,7 @@
     script helps users easily protect and manage their data without needing complex tools.
 
 **Why is this Useful?**
+
 It prevents data loss and also prevents the storage from being filled with old backups.
 
 
