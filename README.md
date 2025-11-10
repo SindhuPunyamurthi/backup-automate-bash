@@ -67,9 +67,12 @@ Verification
 •	Configuration file allows easy customization without modifying the script.
 •	Dry run mode enables safe testing.
 •	Logging records all actions and errors in logs/backup.log.
-Challenges faced:
+
+
+**Challenges faced:**
 •	Handling simultaneous script execution → solved using lock file.
 •	Deleting old backups correctly → solved using sorted find and retention policy.
+
 
 E. Testing
 •	Created backups for a test folder.
@@ -78,6 +81,7 @@ E. Testing
 •	Tested dry run mode.
 •	Tested restoring backups to a separate folder.
 •	Tested error handling for non-existing source folder
+
 
 **Example outputs:**
    [2025-11-07 15:00:01] INFO: Starting backup of /home/user/test_folder
@@ -91,6 +95,9 @@ F. Known Limitations
 •	Email notifications are optional and not fully implemented.
 •	Large backups may take longer depending on disk speed.
 •	Currently only supports local backup destinations.
+
+
+
 
 
 
